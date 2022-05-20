@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Финальное практическое задание. 2.",
+    "children" : [ {
+      "name" : "Финальное практическое задание. 2.",
+      "uid" : "928013ad1d8b827d",
+      "parentUid" : "bf72e1f562c1d980372ec27de3f239f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653051858741,
+        "stop" : 1653051906467,
+        "duration" : 47726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bf72e1f562c1d980372ec27de3f239f1"
+  } ]
+}

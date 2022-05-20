@@ -1,0 +1,27 @@
+{
+	"uuid": "e72b900e-4c2b-4580-b392-a2f7bcb2bf10",
+	"name": "Контекст_Док_Расход товаров. Создание и заполнение документа",
+	"description": "",
+	"children": [
+		"0ec98d4c-8d1f-47b9-9106-d86f26ff93fc"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1653029684116,
+			"stop": 1653029684270,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

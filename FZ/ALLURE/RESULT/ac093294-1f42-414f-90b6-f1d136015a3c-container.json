@@ -1,0 +1,27 @@
+{
+	"uuid": "3b5f47a2-ed0c-48ab-a31f-c25f5aaf438d",
+	"name": "Контекст_Док_Расход товаров. Проверка формы подбора",
+	"description": "",
+	"children": [
+		"ac093294-1f42-414f-90b6-f1d136015a3c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1653029695660,
+			"stop": 1653029695817,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

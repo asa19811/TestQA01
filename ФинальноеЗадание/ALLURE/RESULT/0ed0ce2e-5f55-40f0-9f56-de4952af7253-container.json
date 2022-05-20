@@ -1,0 +1,27 @@
+{
+	"uuid": "81ccad13-722e-4fc1-adf5-6b8216188714",
+	"name": "Контекст_Док_Расход товаров. Проверка поля Валюта взаиморасчетов",
+	"description": "",
+	"children": [
+		"0ed0ce2e-5f55-40f0-9f56-de4952af7253"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1653029692334,
+			"stop": 1653029692494,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

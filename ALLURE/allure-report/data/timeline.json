@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SerRC",
+    "children" : [ {
+      "name" : "Финальное практическое задание. 2.",
+      "uid" : "928013ad1d8b827d",
+      "parentUid" : "4d92b74ed163e87f9bbecc49b6225ecd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653051858741,
+        "stop" : 1653051906467,
+        "duration" : 47726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4d92b74ed163e87f9bbecc49b6225ecd"
+  } ]
+}

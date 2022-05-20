@@ -1,0 +1,167 @@
+{
+	"uuid": "0ed0ce2e-5f55-40f0-9f56-de4952af7253",
+	"historyId": "Финальное практическое задание. 3..Док_Расход товаров. Проверка поля Валюта взаиморасчетов",
+	"name": "Док_Расход товаров. Проверка поля Валюта взаиморасчетов",
+	"fullName": null,
+	"start": 1653029692322,
+	"stop": 1653029692850,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "*Изменим организацию и проверим поле Валюта",
+			"start": 1653029692638,
+			"stop": 1653029692748,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"Организация\" я выбираю точное значение 'ООО \"Все для дома\"'",
+					"start": 1653029692638,
+					"stop": 1653029692667,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организация"
+						},
+						{
+							"name": "Парам2",
+							"value": "ООО \"Все для дома\""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем \"Валюта\" присутствует на форме",
+					"start": 1653029692673,
+					"stop": 1653029692748,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Валюта"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Изменим организацию и проверим поле Валюта",
+			"start": 1653029692755,
+			"stop": 1653029692844,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"Организация\" я выбираю точное значение 'ООО \"1000 мелочей\"'",
+					"start": 1653029692755,
+					"stop": 1653029692777,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Организация"
+						},
+						{
+							"name": "Парам2",
+							"value": "ООО \"1000 мелочей\""
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И элемент формы с именем \"Валюта\" отсутствует на форме",
+					"start": 1653029692784,
+					"stop": 1653029692844,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Валюта"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док_Расход товаров. Проверка поля Валюта взаиморасчетов"
+		},
+		{
+			"name": "feature",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "suite",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ФинальноеЗадание"
+		},
+		{
+			"name": "host",
+			"value": "SerRC"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

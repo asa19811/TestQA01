@@ -1,0 +1,27 @@
+{
+	"uuid": "2eaba057-b95e-4527-be14-6b02abab6122",
+	"name": "Контекст_Док_Расход товаров. Проверка изменения цены и количества",
+	"description": "",
+	"children": [
+		"ef72f645-ce0d-4aef-98c0-87591700c4e6"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1653029687274,
+			"stop": 1653029687471,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

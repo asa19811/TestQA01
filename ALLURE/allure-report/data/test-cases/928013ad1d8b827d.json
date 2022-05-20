@@ -1,0 +1,639 @@
+{
+  "uid" : "928013ad1d8b827d",
+  "name" : "Финальное практическое задание. 2.",
+  "historyId" : "Финальное практическое задание. 2..Финальное практическое задание. 2.",
+  "time" : {
+    "start" : 1653051858741,
+    "stop" : 1653051906467,
+    "duration" : 47726
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+    "time" : {
+      "start" : 1653051858752,
+      "stop" : 1653051858904,
+      "duration" : 152
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "И я закрываю все окна клиентского приложения",
+    "time" : {
+      "start" : 1653051859009,
+      "stop" : 1653051859012,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "* Загрузим документ прихода и проведем его",
+      "time" : {
+        "start" : 1653051859019,
+        "stop" : 1653051860025,
+        "duration" : 1006
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Когда Загрузка документа приход товаров",
+        "time" : {
+          "start" : 1653051859019,
+          "stop" : 1653051859410,
+          "duration" : 391
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "И я проверяю или создаю для справочника \"ВидыЦен\" объекты:",
+          "time" : {
+            "start" : 1653051859019,
+            "stop" : 1653051859056,
+            "duration" : 37
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "9eea26b462122be2",
+            "name" : "table",
+            "source" : "9eea26b462122be2.csv",
+            "type" : "text/csv",
+            "size" : 222
+          } ],
+          "parameters" : [ {
+            "name" : "Парам1",
+            "value" : "ВидыЦен"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "И я проверяю или создаю для справочника \"Контрагенты\" объекты:",
+          "time" : {
+            "start" : 1653051859064,
+            "stop" : 1653051859130,
+            "duration" : 66
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "6b3d5a7fb65db5a7",
+            "name" : "table",
+            "source" : "6b3d5a7fb65db5a7.csv",
+            "type" : "text/csv",
+            "size" : 1987
+          } ],
+          "parameters" : [ {
+            "name" : "Парам1",
+            "value" : "Контрагенты"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "И я проверяю или создаю для справочника \"Организации\" объекты:",
+          "time" : {
+            "start" : 1653051859137,
+            "stop" : 1653051859160,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4e4a4165865d23c3",
+            "name" : "table",
+            "source" : "4e4a4165865d23c3.csv",
+            "type" : "text/csv",
+            "size" : 271
+          } ],
+          "parameters" : [ {
+            "name" : "Парам1",
+            "value" : "Организации"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "И я проверяю или создаю для справочника \"Регионы\" объекты:",
+          "time" : {
+            "start" : 1653051859167,
+            "stop" : 1653051859201,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "d1ee00ceb5b29271",
+            "name" : "table",
+            "source" : "d1ee00ceb5b29271.csv",
+            "type" : "text/csv",
+            "size" : 349
+          } ],
+          "parameters" : [ {
+            "name" : "Парам1",
+            "value" : "Регионы"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "И я проверяю или создаю для справочника \"Склады\" объекты:",
+          "time" : {
+            "start" : 1653051859208,
+            "stop" : 1653051859232,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "5fe09b061f4def12",
+            "name" : "table",
+            "source" : "5fe09b061f4def12.csv",
+            "type" : "text/csv",
+            "size" : 271
+          } ],
+          "parameters" : [ {
+            "name" : "Парам1",
+            "value" : "Склады"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "И я проверяю или создаю для справочника \"Товары\" объекты:",
+          "time" : {
+            "start" : 1653051859241,
+            "stop" : 1653051859280,
+            "duration" : 39
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e16864e6412254df",
+            "name" : "table",
+            "source" : "e16864e6412254df.csv",
+            "type" : "text/csv",
+            "size" : 2188
+          } ],
+          "parameters" : [ {
+            "name" : "Парам1",
+            "value" : "Товары"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "И я проверяю или создаю для справочника \"ХранимыеФайлы\" объекты:",
+          "time" : {
+            "start" : 1653051859286,
+            "stop" : 1653051859313,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a064f25ce1cd4c42",
+            "name" : "table",
+            "source" : "a064f25ce1cd4c42.csv",
+            "type" : "text/csv",
+            "size" : 12216
+          } ],
+          "parameters" : [ {
+            "name" : "Парам1",
+            "value" : "ХранимыеФайлы"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "И я проверяю или создаю для документа \"ПриходТовара\" объекты:",
+          "time" : {
+            "start" : 1653051859320,
+            "stop" : 1653051859380,
+            "duration" : 60
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "7f61d256ebc7927f",
+            "name" : "table",
+            "source" : "7f61d256ebc7927f.csv",
+            "type" : "text/csv",
+            "size" : 587
+          } ],
+          "parameters" : [ {
+            "name" : "Парам1",
+            "value" : "ПриходТовара"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "И я перезаполняю для объекта табличную часть \"Товары\":",
+          "time" : {
+            "start" : 1653051859387,
+            "stop" : 1653051859410,
+            "duration" : 23
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "974245ef4527e032",
+            "name" : "table",
+            "source" : "974245ef4527e032.csv",
+            "type" : "text/csv",
+            "size" : 276
+          } ],
+          "parameters" : [ {
+            "name" : "Парам1",
+            "value" : "Товары"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 1,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 9,
+        "attachmentsCount" : 9,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И Я открываю навигационную ссылку \"e1cib/data/Документ.ПриходТовара?ref=82f00cc47aa9f15111ec882d1613cda7\"",
+        "time" : {
+          "start" : 1653051859418,
+          "stop" : 1653051859421,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "e1cib/data/Документ.ПриходТовара?ref=82f00cc47aa9f15111ec882d1613cda7"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+        "time" : {
+          "start" : 1653051859426,
+          "stop" : 1653051859530,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ФормаПровестиИЗакрыть"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я жду закрытия окна 'Поступление товара * от *' в течение 20 секунд",
+        "time" : {
+          "start" : 1653051859537,
+          "stop" : 1653051860025,
+          "duration" : 488
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Поступление товара * от *"
+        }, {
+          "name" : "Парам2",
+          "value" : "20"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 13,
+      "attachmentsCount" : 9,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "* Откроем отчет и перейдем к настройке",
+      "time" : {
+        "start" : 1653051860032,
+        "stop" : 1653051880599,
+        "duration" : 20567
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И Я открываю навигационную ссылку \"e1cib/app/Отчет.ОстаткиТоваровНаСкладах\"",
+        "time" : {
+          "start" : 1653051860032,
+          "stop" : 1653051860035,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "e1cib/app/Отчет.ОстаткиТоваровНаСкладах"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я нажимаю на кнопку с именем 'ФормаЗагрузитьВариант'",
+        "time" : {
+          "start" : 1653051860042,
+          "stop" : 1653051860149,
+          "duration" : 107
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ФормаЗагрузитьВариант"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Тогда открылось окно 'Выбор варианта отчета'",
+        "time" : {
+          "start" : 1653051860155,
+          "stop" : 1653051860217,
+          "duration" : 62
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Выбор варианта отчета"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И в таблице \"СписокНастроек\" я перехожу к строке",
+        "time" : {
+          "start" : 1653051860224,
+          "stop" : 1653051860232,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c12bca53b68baabc",
+          "name" : "table",
+          "source" : "c12bca53b68baabc.csv",
+          "type" : "text/csv",
+          "size" : 53
+        } ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "СписокНастроек"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я нажимаю на кнопку с именем 'Загрузить'",
+        "time" : {
+          "start" : 1653051860239,
+          "stop" : 1653051860247,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Загрузить"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Тогда открылось окно 'Остатки товаров'",
+        "time" : {
+          "start" : 1653051860254,
+          "stop" : 1653051860314,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Остатки товаров"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И Пауза 20",
+        "time" : {
+          "start" : 1653051860320,
+          "stop" : 1653051880599,
+          "duration" : 20279
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "20"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 7,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "*Формирование отчета и ожидание выполнения",
+      "time" : {
+        "start" : 1653051880722,
+        "stop" : 1653051900106,
+        "duration" : 19384
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "И я нажимаю на кнопку с именем 'ФормаСформировать'",
+        "time" : {
+          "start" : 1653051880722,
+          "stop" : 1653051880739,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "ФормаСформировать"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И Пауза 20",
+        "time" : {
+          "start" : 1653051880746,
+          "stop" : 1653051900106,
+          "duration" : 19360
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "20"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "*Проверка отчета",
+      "time" : {
+        "start" : 1653051900210,
+        "stop" : 1653051906462,
+        "duration" : 6252
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Дано Табличный документ \"Результат\" равен макету \"Макет_ОстаткиТоваров_ПроверкаОтчета.mxl\"",
+        "time" : {
+          "start" : 1653051900210,
+          "stop" : 1653051906433,
+          "duration" : 6223
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Парам1",
+          "value" : "Результат"
+        }, {
+          "name" : "Парам2",
+          "value" : "Макет_ОстаткиТоваров_ПроверкаОтчета.mxl"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "И я закрываю все окна клиентского приложения",
+        "time" : {
+          "start" : 1653051906438,
+          "stop" : 1653051906462,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 28,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Финальное практическое задание. 2."
+  }, {
+    "name" : "tag",
+    "value" : "exportscenarios"
+  }, {
+    "name" : "package",
+    "value" : "ФинальноеЗадание"
+  }, {
+    "name" : "host",
+    "value" : "SerRC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "exportscenarios" ]
+  },
+  "source" : "928013ad1d8b827d.json",
+  "parameterValues" : [ ]
+}

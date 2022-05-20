@@ -1,0 +1,27 @@
+{
+	"uuid": "058e30fc-bb77-4346-8f70-6dde236e3c42",
+	"name": "Контекст_Док_Расход товаров. Проверка пересчета строк при изменении вида цены",
+	"description": "",
+	"children": [
+		"55a793a5-2e29-4161-8d41-e91e1539b70b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1653029694008,
+			"stop": 1653029694205,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

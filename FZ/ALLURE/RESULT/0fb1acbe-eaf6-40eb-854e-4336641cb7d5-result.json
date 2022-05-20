@@ -1,0 +1,213 @@
+{
+	"uuid": "0fb1acbe-eaf6-40eb-854e-4336641cb7d5",
+	"historyId": "Финальное практическое задание. 3..Док_Расход товаров. Запись и проведение документа",
+	"name": "Док_Расход товаров. Запись и проведение документа",
+	"fullName": null,
+	"start": 1653029698491,
+	"stop": 1653029699223,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И я нажимаю на кнопку \"Записать\"",
+			"start": 1653029698757,
+			"stop": 1653029698771,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Записать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "* Номер",
+			"start": 1653029698777,
+			"stop": 1653029698893,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я запоминаю значение поля \"Номер\" как \"$Номер$\"",
+					"start": 1653029698777,
+					"stop": 1653029698893,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Номер"
+						},
+						{
+							"name": "Парам2",
+							"value": "$Номер$"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* проведение документа",
+			"start": 1653029698904,
+			"stop": 1653029699178,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+					"start": 1653029698904,
+					"stop": 1653029698913,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровестиИЗакрыть"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду закрытия окна 'Поступление товара (создание) *' в течение 20 секунд",
+					"start": 1653029698919,
+					"stop": 1653029699178,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Поступление товара (создание) *"
+						},
+						{
+							"name": "Парам2",
+							"value": "20"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И в таблице \"Список\" я перехожу к строке:",
+			"start": 1653029699184,
+			"stop": 1653029699194,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "14f4f13b-2d11-458a-bc4b-864a426878bd-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я выбираю текущую строку",
+			"start": 1653029699201,
+			"stop": 1653029699216,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док_Расход товаров. Запись и проведение документа"
+		},
+		{
+			"name": "feature",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "suite",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ФинальноеЗадание"
+		},
+		{
+			"name": "host",
+			"value": "SerRC"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

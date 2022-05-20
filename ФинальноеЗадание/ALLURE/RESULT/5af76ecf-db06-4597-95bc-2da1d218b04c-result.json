@@ -1,0 +1,283 @@
+{
+	"uuid": "5af76ecf-db06-4597-95bc-2da1d218b04c",
+	"historyId": "Финальное практическое задание. 3..Док_Расход товаров. Проверка изменения вида цены в шапке документа при измененни покупателя",
+	"name": "Док_Расход товаров. Проверка изменения вида цены в шапке документа при измененни покупателя",
+	"fullName": null,
+	"start": 1653029689005,
+	"stop": 1653029691172,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "*Изменим контрагента и проверим измененеие вида цены",
+			"start": 1653029689367,
+			"stop": 1653029689676,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я нажимаю кнопку выбора у поля с именем \"Покупатель\"",
+					"start": 1653029689367,
+					"stop": 1653029689388,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Покупатель"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Контрагенты'",
+					"start": 1653029689394,
+					"stop": 1653029689550,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Контрагенты"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице  \"Список\" я перехожу к строке:",
+					"start": 1653029689555,
+					"stop": 1653029689568,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "3a913ae9-310c-44a7-b068-a510faa8d535-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я выбираю текущую строку",
+					"start": 1653029689575,
+					"stop": 1653029689580,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я перехожу к строке:",
+					"start": 1653029689587,
+					"stop": 1653029689613,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "b115177d-21df-4f24-89c3-f8efc5b9be93-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я выбираю текущую строку",
+					"start": 1653029689620,
+					"stop": 1653029689624,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда элемент формы с именем 'ВидЦен' стал равен 'Оптовая'",
+					"start": 1653029689631,
+					"stop": 1653029689676,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ВидЦен"
+						},
+						{
+							"name": "Парам2",
+							"value": "Оптовая"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Изменим контрагента и проверим изменение вида цены",
+			"start": 1653029689682,
+			"stop": 1653029691166,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"Покупатель\" я выбираю по строке '000000015'",
+					"start": 1653029689682,
+					"stop": 1653029691155,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Покупатель"
+						},
+						{
+							"name": "Парам2",
+							"value": "000000015"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда элемент формы с именем 'ВидЦен' стал равен 'Розничная'",
+					"start": 1653029691162,
+					"stop": 1653029691166,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ВидЦен"
+						},
+						{
+							"name": "Парам2",
+							"value": "Розничная"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док_Расход товаров. Проверка изменения вида цены в шапке документа при измененни покупателя"
+		},
+		{
+			"name": "feature",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "suite",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ФинальноеЗадание"
+		},
+		{
+			"name": "host",
+			"value": "SerRC"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

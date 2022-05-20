@@ -1,0 +1,459 @@
+{
+	"uuid": "ef72f645-ce0d-4aef-98c0-87591700c4e6",
+	"historyId": "Финальное практическое задание. 3..Док_Расход товаров. Проверка изменения цены и количества",
+	"name": "Док_Расход товаров. Проверка изменения цены и количества",
+	"fullName": null,
+	"start": 1653029687264,
+	"stop": 1653029687852,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "*Изменение цены и количества",
+			"start": 1653029687571,
+			"stop": 1653029687647,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Когда открылось окно 'Продажа товара (создание) *'",
+					"start": 1653029687571,
+					"stop": 1653029687576,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Продажа товара (создание) *"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" я выбираю текущую строку",
+					"start": 1653029687583,
+					"stop": 1653029687591,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" в поле с именем 'ТоварыЦена' я ввожу текст '10,00'",
+					"start": 1653029687597,
+					"stop": 1653029687630,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыЦена"
+						},
+						{
+							"name": "Парам3",
+							"value": "10,00"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" я завершаю редактирование строки",
+					"start": 1653029687637,
+					"stop": 1653029687647,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Проверка расчета итоговой суммы",
+			"start": 1653029687655,
+			"stop": 1653029687669,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И Элементформы с именем \"ТоварыИтогСумма\" стал равен 10",
+					"start": 1653029687655,
+					"stop": 1653029687669,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТоварыИтогСумма"
+						},
+						{
+							"name": "Парам2",
+							"value": "10"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Изменение цены и количества",
+			"start": 1653029687676,
+			"stop": 1653029687730,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"Товары\" я выбираю текущую строку",
+					"start": 1653029687676,
+					"stop": 1653029687680,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" в поле с именем 'ТоварыКоличество' я ввожу текст '2,00'",
+					"start": 1653029687687,
+					"stop": 1653029687715,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыКоличество"
+						},
+						{
+							"name": "Парам3",
+							"value": "2,00"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" я завершаю редактирование строки",
+					"start": 1653029687723,
+					"stop": 1653029687730,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Проверка расчета итоговой суммы",
+			"start": 1653029687736,
+			"stop": 1653029687754,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И Элементформы с именем \"ТоварыИтогСумма\" стал равен 20",
+					"start": 1653029687736,
+					"stop": 1653029687754,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТоварыИтогСумма"
+						},
+						{
+							"name": "Парам2",
+							"value": "20"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Изменение цены и количества",
+			"start": 1653029687760,
+			"stop": 1653029687815,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"Товары\" я выбираю текущую строку",
+					"start": 1653029687760,
+					"stop": 1653029687764,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" в поле с именем 'ТоварыЦена' я ввожу текст '30,00'",
+					"start": 1653029687770,
+					"stop": 1653029687800,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "ТоварыЦена"
+						},
+						{
+							"name": "Парам3",
+							"value": "30,00"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" я завершаю редактирование строки",
+					"start": 1653029687807,
+					"stop": 1653029687815,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Проверка расчета итоговой суммы",
+			"start": 1653029687822,
+			"stop": 1653029687847,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И Элементформы с именем \"ТоварыИтогСумма\" стал равен 60",
+					"start": 1653029687822,
+					"stop": 1653029687836,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТоварыИтогСумма"
+						},
+						{
+							"name": "Парам2",
+							"value": "60"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Когда открылось окно 'Продажа товара (создание) *'",
+					"start": 1653029687842,
+					"stop": 1653029687847,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Продажа товара (создание) *"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док_Расход товаров. Проверка изменения цены и количества"
+		},
+		{
+			"name": "feature",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "suite",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ФинальноеЗадание"
+		},
+		{
+			"name": "host",
+			"value": "SerRC"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

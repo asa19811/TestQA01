@@ -1,0 +1,179 @@
+{
+	"uuid": "55a793a5-2e29-4161-8d41-e91e1539b70b",
+	"historyId": "Финальное практическое задание. 3..Док_Расход товаров. Проверка пересчета строк при изменении вида цены",
+	"name": "Док_Расход товаров. Проверка пересчета строк при изменении вида цены",
+	"fullName": null,
+	"start": 1653029693997,
+	"stop": 1653029694484,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "*Изменим ВидЦен и проверим расчет цены Закупочная",
+			"start": 1653029694304,
+			"stop": 1653029694391,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ВидЦен\" я выбираю точное значение 'Закупочная'",
+					"start": 1653029694304,
+					"stop": 1653029694330,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ВидЦен"
+						},
+						{
+							"name": "Парам2",
+							"value": "Закупочная"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И таблица \"Товары\" стала равной:",
+					"start": 1653029694337,
+					"stop": 1653029694391,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "4da8e1a9-f500-4a25-9b01-ac02488256d8-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Изменим ВидЦен и проверим расчет цены Розничная",
+			"start": 1653029694397,
+			"stop": 1653029694479,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И из выпадающего списка с именем \"ВидЦен\" я выбираю точное значение 'Розничная'",
+					"start": 1653029694397,
+					"stop": 1653029694420,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ВидЦен"
+						},
+						{
+							"name": "Парам2",
+							"value": "Розничная"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И таблица \"Товары\" стала равной:",
+					"start": 1653029694426,
+					"stop": 1653029694479,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "db4a2577-aa87-449e-b6c4-013d8c790c6c-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док_Расход товаров. Проверка пересчета строк при изменении вида цены"
+		},
+		{
+			"name": "feature",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "suite",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ФинальноеЗадание"
+		},
+		{
+			"name": "host",
+			"value": "SerRC"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

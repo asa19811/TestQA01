@@ -1,0 +1,642 @@
+{
+	"uuid": "c0b88330-5175-47cd-9907-1baa4551bda3",
+	"historyId": "Финальное практическое задание. 2..Финальное практическое задание. 2.",
+	"name": "Финальное практическое задание. 2.",
+	"fullName": null,
+	"start": 1653051858741,
+	"stop": 1653051906467,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Загрузим документ прихода и проведем его",
+			"start": 1653051859019,
+			"stop": 1653051860025,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Когда Загрузка документа приход товаров",
+					"start": 1653051859019,
+					"stop": 1653051859410,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И я проверяю или создаю для справочника \"ВидыЦен\" объекты:",
+							"start": 1653051859019,
+							"stop": 1653051859056,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ВидыЦен"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "60995d4c-9eaf-4bea-a4d8-54543f4b2ea7-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						},
+						{
+							"name": "И я проверяю или создаю для справочника \"Контрагенты\" объекты:",
+							"start": 1653051859064,
+							"stop": 1653051859130,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Контрагенты"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "e4db338f-504f-4897-98f4-d3731871ad7d-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						},
+						{
+							"name": "И я проверяю или создаю для справочника \"Организации\" объекты:",
+							"start": 1653051859137,
+							"stop": 1653051859160,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Организации"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "c8f063bb-ab83-4d39-9fa7-e1fc24ef8074-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						},
+						{
+							"name": "И я проверяю или создаю для справочника \"Регионы\" объекты:",
+							"start": 1653051859167,
+							"stop": 1653051859201,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Регионы"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "e409f0fa-9bc1-4473-b5c4-d66f92a4427d-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						},
+						{
+							"name": "И я проверяю или создаю для справочника \"Склады\" объекты:",
+							"start": 1653051859208,
+							"stop": 1653051859232,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Склады"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "433cc4f1-42f6-4a1c-9b3d-6ed0cb78cc73-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						},
+						{
+							"name": "И я проверяю или создаю для справочника \"Товары\" объекты:",
+							"start": 1653051859241,
+							"stop": 1653051859280,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Товары"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "767fe62d-399f-4c7b-949c-105457f4170f-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						},
+						{
+							"name": "И я проверяю или создаю для справочника \"ХранимыеФайлы\" объекты:",
+							"start": 1653051859286,
+							"stop": 1653051859313,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ХранимыеФайлы"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "e5f90a76-135f-4c5b-9ad2-daf5ceae229c-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						},
+						{
+							"name": "И я проверяю или создаю для документа \"ПриходТовара\" объекты:",
+							"start": 1653051859320,
+							"stop": 1653051859380,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "ПриходТовара"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "74167708-0b42-4386-a155-7b0e4d66c473-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						},
+						{
+							"name": "И я перезаполняю для объекта табличную часть \"Товары\":",
+							"start": 1653051859387,
+							"stop": 1653051859410,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Товары"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "22d37ce8-3a81-4af1-bbaf-48bd18e77763-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "И Я открываю навигационную ссылку \"e1cib/data/Документ.ПриходТовара?ref=82f00cc47aa9f15111ec882d1613cda7\"",
+					"start": 1653051859418,
+					"stop": 1653051859421,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "e1cib/data/Документ.ПриходТовара?ref=82f00cc47aa9f15111ec882d1613cda7"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровестиИЗакрыть'",
+					"start": 1653051859426,
+					"stop": 1653051859530,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровестиИЗакрыть"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я жду закрытия окна 'Поступление товара * от *' в течение 20 секунд",
+					"start": 1653051859537,
+					"stop": 1653051860025,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Поступление товара * от *"
+						},
+						{
+							"name": "Парам2",
+							"value": "20"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Откроем отчет и перейдем к настройке",
+			"start": 1653051860032,
+			"stop": 1653051880599,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И Я открываю навигационную ссылку \"e1cib/app/Отчет.ОстаткиТоваровНаСкладах\"",
+					"start": 1653051860032,
+					"stop": 1653051860035,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "e1cib/app/Отчет.ОстаткиТоваровНаСкладах"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаЗагрузитьВариант'",
+					"start": 1653051860042,
+					"stop": 1653051860149,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаЗагрузитьВариант"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Выбор варианта отчета'",
+					"start": 1653051860155,
+					"stop": 1653051860217,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Выбор варианта отчета"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"СписокНастроек\" я перехожу к строке",
+					"start": 1653051860224,
+					"stop": 1653051860232,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СписокНастроек"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "032fd459-1c7f-43aa-b561-c27563e0fb57-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Загрузить'",
+					"start": 1653051860239,
+					"stop": 1653051860247,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Загрузить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Остатки товаров'",
+					"start": 1653051860254,
+					"stop": 1653051860314,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Остатки товаров"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Пауза 20",
+					"start": 1653051860320,
+					"stop": 1653051880599,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "20"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Формирование отчета и ожидание выполнения",
+			"start": 1653051880722,
+			"stop": 1653051900106,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаСформировать'",
+					"start": 1653051880722,
+					"stop": 1653051880739,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаСформировать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Пауза 20",
+					"start": 1653051880746,
+					"stop": 1653051900106,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "20"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Проверка отчета",
+			"start": 1653051900210,
+			"stop": 1653051906462,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Дано Табличный документ \"Результат\" равен макету \"Макет_ОстаткиТоваров_ПроверкаОтчета.mxl\"",
+					"start": 1653051900210,
+					"stop": 1653051906433,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Результат"
+						},
+						{
+							"name": "Парам2",
+							"value": "Макет_ОстаткиТоваров_ПроверкаОтчета.mxl"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я закрываю все окна клиентского приложения",
+					"start": 1653051906438,
+					"stop": 1653051906462,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Финальное практическое задание. 2."
+		},
+		{
+			"name": "tag",
+			"value": "exportscenarios"
+		},
+		{
+			"name": "package",
+			"value": "ФинальноеЗадание"
+		},
+		{
+			"name": "host",
+			"value": "SerRC"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

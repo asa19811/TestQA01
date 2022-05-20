@@ -1,0 +1,805 @@
+{
+	"uuid": "ac093294-1f42-414f-90b6-f1d136015a3c",
+	"historyId": "Финальное практическое задание. 3..Док_Расход товаров. Проверка формы подбора",
+	"name": "Док_Расход товаров. Проверка формы подбора",
+	"fullName": null,
+	"start": 1653029695648,
+	"stop": 1653029697339,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "*Откроем форму подбора",
+			"start": 1653029695915,
+			"stop": 1653029696187,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"Товары\" я нажимаю на кнопку с именем 'КомандаПодбор'",
+					"start": 1653029695915,
+					"stop": 1653029695925,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "КомандаПодбор"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Когда открылось окно 'Подбор товара'",
+					"start": 1653029695930,
+					"stop": 1653029696187,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Подбор товара"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Выбор товара в форме подбора",
+			"start": 1653029696193,
+			"stop": 1653029696307,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"ДеревоТоваров\" я разворачиваю текущую строку",
+					"start": 1653029696193,
+					"stop": 1653029696212,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ДеревоТоваров"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ДеревоТоваров\" я перехожу к строке:",
+					"start": 1653029696219,
+					"stop": 1653029696273,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ДеревоТоваров"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "b86cd853-0ea8-4dc7-97fa-aff9c83d14f9-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"СписокТоваров\" я перехожу к строке:",
+					"start": 1653029696280,
+					"stop": 1653029696297,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СписокТоваров"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "8e920351-f22e-4d3d-b3a7-5fcfd09a8dc6-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"СписокТоваров\" я выбираю текущую строку",
+					"start": 1653029696303,
+					"stop": 1653029696307,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СписокТоваров"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Проверим добавление товара в отобранные товары",
+			"start": 1653029696413,
+			"stop": 1653029696442,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда таблица \"Товары\" стала равной:",
+					"start": 1653029696413,
+					"stop": 1653029696442,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "353eb6ad-f3ed-40c4-b980-4bf3520a2d25-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Увеличим количество двойным кликом по товару",
+			"start": 1653029696449,
+			"stop": 1653029696472,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"СписокТоваров\" я перехожу к строке:",
+					"start": 1653029696449,
+					"stop": 1653029696460,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СписокТоваров"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "08a517e8-7794-4208-9ca2-dcb3a12cc84d-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"СписокТоваров\" я выбираю текущую строку",
+					"start": 1653029696468,
+					"stop": 1653029696472,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СписокТоваров"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Проверим увеличение количества товара в отобранных товарах",
+			"start": 1653029696479,
+			"stop": 1653029696510,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда таблица \"Товары\" стала равной:",
+					"start": 1653029696479,
+					"stop": 1653029696510,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "c1a74d6c-7449-48d7-bed5-f637e4d5c2f5-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Перенесем выбранные товары в документ",
+			"start": 1653029696515,
+			"stop": 1653029696527,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И я нажимаю на кнопку с именем 'ОК'",
+					"start": 1653029696515,
+					"stop": 1653029696527,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОК"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Проверим табличную часть документа",
+			"start": 1653029696533,
+			"stop": 1653029696618,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда таблица \"Товары\" стала равной:",
+					"start": 1653029696533,
+					"stop": 1653029696618,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "d251f9ba-ae5b-4697-a0e9-56c074a9268d-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Откроем форму подбора и удалим товар",
+			"start": 1653029696624,
+			"stop": 1653029696851,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"Товары\" я нажимаю на кнопку с именем 'КомандаПодбор'",
+					"start": 1653029696624,
+					"stop": 1653029696636,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "КомандаПодбор"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Подбор товара'",
+					"start": 1653029696643,
+					"stop": 1653029696789,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Подбор товара"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Товары\" я перехожу к строке:",
+					"start": 1653029696795,
+					"stop": 1653029696813,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "7142028f-6618-46d8-948b-725cab554e01-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И я выбираю пункт контекстного меню с именем 'ТоварыКонтекстноеМенюУдалить' на элементе формы с именем \"Товары\"",
+					"start": 1653029696821,
+					"stop": 1653029696831,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ТоварыКонтекстноеМенюУдалить"
+						},
+						{
+							"name": "Парам2",
+							"value": "Товары"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ОК'",
+					"start": 1653029696838,
+					"stop": 1653029696851,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ОК"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Проверим табличную часть документа",
+			"start": 1653029696858,
+			"stop": 1653029696933,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда таблица \"Товары\" стала равной:",
+					"start": 1653029696858,
+					"stop": 1653029696933,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "a71fe5ee-b403-4888-b379-b873fe6ee437-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*Отображение количества в форме подбора",
+			"start": 1653029696939,
+			"stop": 1653029697203,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И в таблице \"Товары\" я нажимаю на кнопку с именем 'КомандаПодбор'",
+					"start": 1653029696939,
+					"stop": 1653029696950,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Товары"
+						},
+						{
+							"name": "Парам2",
+							"value": "КомандаПодбор"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Подбор товара'",
+					"start": 1653029696957,
+					"stop": 1653029697108,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Подбор товара"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ДеревоТоваров\" я разворачиваю текущую строку",
+					"start": 1653029697115,
+					"stop": 1653029697129,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ДеревоТоваров"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"ДеревоТоваров\" я перехожу к строке:",
+					"start": 1653029697137,
+					"stop": 1653029697181,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ДеревоТоваров"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "afabd2e8-dc1d-4f00-a8c1-412754ddb0fe-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"СписокТоваров\" я перехожу к строке:",
+					"start": 1653029697187,
+					"stop": 1653029697203,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СписокТоваров"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "0a5b5895-1d60-469c-a41c-de24734da26a-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "*проверим количество в форме подбора",
+			"start": 1653029697215,
+			"stop": 1653029697269,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Тогда таблица \"СписокТоваров\" содержит строки:",
+					"start": 1653029697215,
+					"stop": 1653029697269,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "СписокТоваров"
+						}
+					],
+					"attachments": [
+						{
+							"name": "table",
+							"source": "1e744f0a-2231-48fa-b292-7179ccc47f39-attachment.csv",
+							"type": "text/csv"
+						}
+					],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Отмена'",
+			"start": 1653029697319,
+			"stop": 1653029697332,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отмена"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док_Расход товаров. Проверка формы подбора"
+		},
+		{
+			"name": "feature",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "suite",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ФинальноеЗадание"
+		},
+		{
+			"name": "host",
+			"value": "SerRC"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

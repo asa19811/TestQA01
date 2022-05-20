@@ -1,0 +1,42 @@
+{
+	"uuid": "5085d031-5203-4969-abff-7bea0aa8af6d",
+	"name": "Контекст_Финальное практическое задание. 2.",
+	"description": "",
+	"children": [
+		"c0b88330-5175-47cd-9907-1baa4551bda3"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1653051858752,
+			"stop": 1653051858904,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1653051859009,
+			"stop": 1653051859012,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

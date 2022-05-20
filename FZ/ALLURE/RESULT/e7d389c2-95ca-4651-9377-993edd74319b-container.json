@@ -1,0 +1,27 @@
+{
+	"uuid": "221ec617-e4d8-4443-97d8-a9f84ab5a17c",
+	"name": "Контекст_Док_Расход товаров. Проверка проведения",
+	"description": "",
+	"children": [
+		"e7d389c2-95ca-4651-9377-993edd74319b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1653029700350,
+			"stop": 1653029700546,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

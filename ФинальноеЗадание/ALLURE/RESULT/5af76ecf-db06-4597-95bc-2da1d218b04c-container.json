@@ -1,0 +1,27 @@
+{
+	"uuid": "9a462c3f-8d33-4d22-9b22-313fec76a120",
+	"name": "Контекст_Док_Расход товаров. Проверка изменения вида цены в шапке документа при измененни покупателя",
+	"description": "",
+	"children": [
+		"5af76ecf-db06-4597-95bc-2da1d218b04c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+			"start": 1653029689016,
+			"stop": 1653029689170,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

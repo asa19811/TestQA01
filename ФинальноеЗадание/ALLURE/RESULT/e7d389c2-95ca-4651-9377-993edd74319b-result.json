@@ -1,0 +1,249 @@
+{
+	"uuid": "e7d389c2-95ca-4651-9377-993edd74319b",
+	"historyId": "Финальное практическое задание. 3..Док_Расход товаров. Проверка проведения",
+	"name": "Док_Расход товаров. Проверка проведения",
+	"fullName": null,
+	"start": 1653029700340,
+	"stop": 1653029701203,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "*Проверим движения документов",
+			"start": 1653029700647,
+			"stop": 1653029701195,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "*Регистр продаж",
+					"start": 1653029700647,
+					"stop": 1653029700840,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И В текущем окне я нажимаю кнопку командного интерфейса 'Регистр продаж'",
+							"start": 1653029700647,
+							"stop": 1653029700670,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Регистр продаж"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Тогда таблица \"Список\" содержит строки:",
+							"start": 1653029700676,
+							"stop": 1653029700840,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Список"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "d55792b8-00a5-402c-8d1a-ad1c05e04cda-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "*Регистр товарных запасов",
+					"start": 1653029700846,
+					"stop": 1653029701008,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И В текущем окне я нажимаю кнопку командного интерфейса 'Регистр товарных запасов'",
+							"start": 1653029700846,
+							"stop": 1653029700851,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Регистр товарных запасов"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Тогда таблица \"Список\" содержит строки:",
+							"start": 1653029700857,
+							"stop": 1653029701008,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Список"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "5ac5f4f8-ef3c-4f6b-a793-f2b6ed4a5237-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						}
+					]
+				},
+				{
+					"name": "*Регистр взаиморасчетов с контрагентами",
+					"start": 1653029701014,
+					"stop": 1653029701195,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": [
+						{
+							"name": "И В текущем окне я нажимаю кнопку командного интерфейса 'Регистр взаиморасчетов с контрагентами'",
+							"start": 1653029701014,
+							"stop": 1653029701020,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Регистр взаиморасчетов с контрагентами"
+								}
+							],
+							"attachments": [],
+							"steps": []
+						},
+						{
+							"name": "Тогда таблица \"Список\" содержит строки:",
+							"start": 1653029701026,
+							"stop": 1653029701195,
+							"status": "passed",
+							"stage": "finished",
+							"statusDetails": {
+								"known": false,
+								"muted": false,
+								"flaky": false
+							},
+							"parameters": [
+								{
+									"name": "Парам1",
+									"value": "Список"
+								}
+							],
+							"attachments": [
+								{
+									"name": "table",
+									"source": "1d50206b-48ed-4ba2-a30b-f695a52a9671-attachment.csv",
+									"type": "text/csv"
+								}
+							],
+							"steps": []
+						}
+					]
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Док_Расход товаров. Проверка проведения"
+		},
+		{
+			"name": "feature",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "suite",
+			"value": "Финальное практическое задание. 3."
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "ФинальноеЗадание"
+		},
+		{
+			"name": "host",
+			"value": "SerRC"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
